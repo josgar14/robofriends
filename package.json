@@ -1,6 +1,6 @@
 {
   "name": "robofriends",
-  "homepage": "https://github.com/josgar14/robofriends/",
+  "homepage": "https://josgar14.github.io/robofriends/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
